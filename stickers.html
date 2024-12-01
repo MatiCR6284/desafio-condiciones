@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stickers</title>
+    <link rel="stylesheet" href="assets/css/sticker-style.css">
+    <script src=""></script>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Selecciona tus Stickers</h1>
+        <p>Puedes llevar hasta 10 stickers</p>
+        <br><br>
+        <div class="stickers-container">
+            <!-- Sticker 1 -->
+            <div class="sticker-item">
+                <img src="assets/images/stickers/sticker-1.png" alt="Sticker 1">
+                <input type="number" id="sticker1" min="0" max="10" value="0" />
+            </div>
+
+            <!-- Sticker 2 -->
+            <div class="sticker-item">
+                <img src="assets/images/stickers/sticker-2.png" alt="Sticker 2">
+                <input type="number" id="sticker2" min="0" max="10" value="0" />
+            </div>
+            <div class="sticker-item">
+                <img src="assets/images/stickers/sticker-3.png" alt="Sticker 3">
+                <input type="number" id="sticker3" min="0" max="10" value="0" />
+            </div>
+        </div>
+        <button id="calculateBtn">Calcular</button>
+        <p id="result"></p>
+    </div>
+        <br><br>
+        <div class="container">
+            <a href="index.html" class="big-button">Volver</a>
+        </div>
+    <script src="assets/scripts/script-sticker.js"></script>
+</body>
+
+</html>
